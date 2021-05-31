@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Janghoon Park"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile_logo.png"
   bio              : "Deeplearning Researcher"
   location         : "Cheonan,South Korea"
   email            : "pjangh98@naver.com"
