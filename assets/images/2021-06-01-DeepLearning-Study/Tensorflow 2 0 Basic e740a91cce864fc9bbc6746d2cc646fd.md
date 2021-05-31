@@ -99,7 +99,7 @@ tf.constant([1,2,3],dtype=tf.float32)
 
 ## 난수 생성
 
-![Tensorflow%202%200%20Basic%20e740a91cce864fc9bbc6746d2cc646fd/Untitled.png](Tensorflow%202%200%20Basic%20e740a91cce864fc9bbc6746d2cc646fd/Untitled.png)
+![Tensorflow%202%200%20Basic%20e740a91cce864fc9bbc6746d2cc646fd/Untitled.png](assets/images/Tensorflow-Basic/Untitled.png)
 
 - Normal Distribution은 중심 극한 이론에 의해서 연속적인 모양
 - Uniform Distibution은 불연속적이며 일정한 분포
