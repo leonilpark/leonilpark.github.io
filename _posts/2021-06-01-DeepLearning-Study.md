@@ -32,15 +32,15 @@ last_modified_at: 2021-06-01 05:48:08 +0000
 
 [Tensorflow 2.0과 Pytorch]()
 
-[Tensorflow 2.0 Basic](https://leonilpark.github.io/Tensorflow-Basic/)
+[Tensorflow 2.0 Basic]()
 
 [MNIST Dataset 소개]()
 
-[TensorFlow 2.0 - Layer](https://leonilpark.github.io/TensorFlow2.0-Layer/)
+[TensorFlow 2.0 - Layer]()
 
-[Optimizer & Training (TF 2.0)](https://leonilpark.github.io/Optimizer&Training/)
+[Optimizer & Training (TF 2.0)]()
 
-[Optimizer & Training (TF 2.0 Expert)](https://leonilpark.github.io/Optimizer&Training-Expert/)
+[Optimizer & Training (TF 2.0 Expert)]()
 
 [Evaluation & Prediction (TF2.0)]()
 
