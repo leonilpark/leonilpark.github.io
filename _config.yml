@@ -98,7 +98,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Deeplearning Researcher"
   location         : "Cheonan,South Korea"
-  email            : "pjangh98@naver.com"
+  email            : "mailto: pjangh98@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
