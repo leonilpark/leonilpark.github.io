@@ -116,6 +116,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "pjangh98@naver.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/leonilpark"
@@ -125,9 +128,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/dev_leonil"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "pjangh98@naver.com"
+
 
 
 # Reading Files
