@@ -14,10 +14,7 @@ last_modified_at: 2021-06-01 05:48:08 +0000
 많은 우여곡절을 겪으며 DeepLearning을 공부했기에 많은 분들께서 쉽게 접하셨음 하는 마음에 시작하게 되었습니다. 느리더라도 꾸준히 작성해 나가보겠습니다.
 
 ## Contents
-
----
-
-## 이론
+### 이론
 
 [DeepLearning 구조](DeepLearning%20Study%20e4d80499d33c4f37b9be7f8e12cca0f6/DeepLearning%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%20d74bae6eb72746f1b5565158c0035d51.md)
 
@@ -31,7 +28,7 @@ last_modified_at: 2021-06-01 05:48:08 +0000
 
 ---
 
-## 실습
+### 실습
 
 [Tensorflow 2.0과 Pytorch](DeepLearning%20Study%20e4d80499d33c4f37b9be7f8e12cca0f6/Tensorflow%202%200%E1%84%80%E1%85%AA%20Pytorch%2033993c5cd07f49279fa405402a455595.md)
 
