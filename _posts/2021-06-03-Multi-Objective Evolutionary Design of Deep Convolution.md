@@ -1,9 +1,8 @@
 ---
+title : Multi-Objective Evolutionary Design of Deep Convolutional Neural Networks for Image Classification 논문 리뷰
 date : 2021-06-03 01:05:03 +0000
 last_modified_at : 2021-06-03 01:10:03 +0000
 ---
-
-# Multi-Objective Evolutionary Design of Deep Convolutional Neural Networks for Image Classification 논문 리뷰
 
 [논문 링크](https://paperswithcode.com/paper/multi-criterion-evolutionary-design-of-deep)
 
