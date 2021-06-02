@@ -1,5 +1,5 @@
 ---
-title: DeepLearning Study
+title: 간편한 딥러닝 사용가이드
 date: 2021-06-01 05:48:08 +0000
 last_modified_at: 2021-06-01 05:48:08 +0000
 ---
@@ -39,7 +39,7 @@ last_modified_at: 2021-06-01 05:48:08 +0000
 
 [Optimizer & Training (TF 2.0 Expert)](https://www.notion.so/Optimizer-Training-TF-2-0-Expert-3038adcca2bf4d1ea69b12021c28c45f)
 
-[Evaluation & Prediction (TF2.0)]()
+[Evaluation & Prediction (TF2.0)](https://www.notion.so/Evaluation-Prediction-TF2-0-4c12e91dbebe405c934b2c554c64a909)
 
 ---
 
