@@ -1,5 +1,4 @@
 ---
-title : Multi-Objective Evolutionary Design of Deep Convolutional Neural Networks for Image Classification 논문 리뷰
 date : 2021-06-03 01:05:03 +0000
 last_modified_at : 2021-06-03 01:10:03 +0000
 ---
@@ -63,7 +62,7 @@ CNN의 한계
 
 ### General Framework
 
-![image1]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled1.png)
+![image1]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled 1.png)
 
 ### 인코딩
 
@@ -73,7 +72,7 @@ CNN의 한계
 
 ### 구조
 
-![image2]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled2.png)
+![image2]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled 2.png)
 
 - 구조는 스택블록으로 구성
 - 채널 수는 depth에 따라 증가
@@ -82,7 +81,7 @@ CNN의 한계
 
 ### 노드 구조
 
-![image3]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled3.png)
+![image3]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled 3.png)
 
 - 첫번째 parent의 reduction 블록과 recombine하여 자손을 형성
 - 한 parent노드가 무작위로 선택되어 다른 parent-level에 있는 다른 노드와 교환되는 방식
@@ -90,37 +89,37 @@ CNN의 한계
 
 ### Input & Operation Mutation
 
-![image4]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled4.png)
+![image4]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled 4.png)
 
 - h1, h2는 ouput
 - h3는 Polynomial mutation(PM)연산자를 통해 크로스오버하여 출력
 
 ### 하이퍼 파라메터 설정
 
-![image5]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled5.png)
+![image5]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled 5.png)
 
 ### 성능 측정
 
-![image6]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled6.png)
+![image6]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled 6.png)
 
 - 이전 방법보다 효율적이고 정확함
 
 ### ETC
 
-![image7]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled7.png)
+![image7]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled 7.png)
 
 - NSGANet을 ImageNet에서 이식이 가능
 - 점선으로 표시된 부분은 multi-objective algorithm을 사용한 것
 
-![image8]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled8.png)
+![image8]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled 8.png)
 
-![image9]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled9.png)
+![image9]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled 9.png)
 
 ### CheXNet과의 비교
 
 - 동일한 데이터셋(NIB) 사용
 
-![image10]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled10.png)
+![image10]({{leonilpark.github.io}}/assets/images/Multi-Objective Evolution/Untitled 10.png)
 
 ### 결론
 
