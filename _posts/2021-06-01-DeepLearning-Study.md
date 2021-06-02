@@ -1,8 +1,5 @@
 ---
 title: DeepLearning Study
-subtitle: DeepLearning Study
-categories: 
-tags: 
 date: 2021-06-01 05:48:08 +0000
 last_modified_at: 2021-06-01 05:48:08 +0000
 ---
@@ -16,35 +13,33 @@ last_modified_at: 2021-06-01 05:48:08 +0000
 ## Contents
 ### 이론
 
-[DeepLearning 구조]()
+[DeepLearning 구조](https://www.notion.so/DeepLearning-d74bae6eb72746f1b5565158c0035d51)
 
-[DeepLearning 용어]()
+[DeepLearning 용어](https://www.notion.so/DeepLearning-86ce4bada0e648a4bbba52a6d09e2470)
 
-[CNN Model 구조]()
+[CNN Model 구조](https://www.notion.so/CNN-Model-28a0703f145643e6af760fd57b7ef182)
 
-[Tensor란 무엇인가]()
+[Tensor란 무엇인가](https://www.notion.so/Tensor-65fbc70602304bcdab9967033b7f5e97)
 
-[이미지 시각화]()
+[이미지 시각화](https://www.notion.so/63a3cc0085744fbcaa909cb2a63ed1a9)
 
 ---
 
 ### 실습
 
-[Tensorflow 2.0과 Pytorch]()
+[Tensorflow 2.0과 Pytorch](https://www.notion.so/Tensorflow-2-0-Pytorch-33993c5cd07f49279fa405402a455595)
 
-[Tensorflow 2.0 Basic]()
+[Tensorflow 2.0 Basic](https://www.notion.so/Tensorflow-2-0-Basic-e740a91cce864fc9bbc6746d2cc646fd)
 
-[MNIST Dataset 소개]()
+[MNIST Dataset 소개](https://www.notion.so/MNIST-Dataset-9a585527ae8e4f0f8679ff76af268955)
 
-[TensorFlow 2.0 - Layer]()
+[TensorFlow 2.0 - Layer](https://www.notion.so/TensorFlow-2-0-Layer-ae1e979ca9e54cca829079c4ab424869)
 
-[Optimizer & Training (TF 2.0)]()
+[Optimizer & Training (TF 2.0)](https://www.notion.so/Optimizer-Training-TF-2-0-2f33e846ee29463f874e15099c0bd94c)
 
-[Optimizer & Training (TF 2.0 Expert)]()
+[Optimizer & Training (TF 2.0 Expert)](https://www.notion.so/Optimizer-Training-TF-2-0-Expert-3038adcca2bf4d1ea69b12021c28c45f)
 
 [Evaluation & Prediction (TF2.0)]()
-
-[설명 없는 실습(1)]()
 
 ---
 
