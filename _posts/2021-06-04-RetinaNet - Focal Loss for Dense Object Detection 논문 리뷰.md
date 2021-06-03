@@ -84,16 +84,16 @@ Anchor box
 - foreground와 background사이에 불균형이 발생하는 1-stage detection을 해결하기 위함
 - 이진 분류를 위한 CE(Cross Entropy) Loss에서 시작
 
-![image3]({{leonilpark.github.io}}/assets/images/Retina-Net/Untitled 3.png)
+![image3]({{leonilpark.github.io}}/assets/images/RetinaNet/Untitled 3.png)
 
-![image4]({{leonilpark.github.io}}/assets/images/Retina-Net//Untitled 4.png)
+![image4]({{leonilpark.github.io}}/assets/images/RetinaNet//Untitled 4.png)
 
 - $CE(p,y) = CE(pt) = -log(p_t)$로 재정의
 - CE Loss는 밑의 그림에서 파란색으로 조회 가능
 - 이때 주목할 점은 표를 보면 $(pt > 0.5)$보다 loss를 야기함
 - 이렇게 대량의 easy examples를 요약한다면 작은 loss값으로 hard examples를 해결 가능
 
-![image5]({{leonilpark.github.io}}/assets/images/Retina-Net/Untitled.png)
+![image5]({{leonilpark.github.io}}/assets/images/RetinaNet/Untitled.png)
 
 ### Balanced Cross Entropy
 
@@ -101,7 +101,7 @@ Anchor box
 - $\alpha$는 inverse class frequency에 의해 설정되거나 교차 검증에 의해 설정되는 하이퍼 파라미터로 설정할 수 있음
 - $p_t$를 정의한 방법과 유사하게 $a_t$를 정의한다.
 
-![image6]({{leonilpark.github.io}}/assets/images/Retina-Net/Untitled 5.png)
+![image6]({{leonilpark.github.io}}/assets/images/RetinaNet/Untitled 5.png)
 
 - 이는 CE에 대한 확장이며 Focal Loss에 대한 실험을 기준으로 했다.
 
@@ -113,7 +113,7 @@ Anchor box
 - 이를 보완하기 위해 Loss function을 변형하여 easy examples의 가중치를 낮추고, hard examples에 초점을 둔다.
 - 이때 tunable focusing parameter $\gamma \geqq 0$을 사용하여 modulation factor $(1-p_t)^\gamma$을 추가할 것을 제안
 
-![image7]({{leonilpark.github.io}}/assets/images/Retina-Net/Untitled 6.png)
+![image7]({{leonilpark.github.io}}/assets/images/RetinaNet/Untitled 6.png)
 
 - Focal Loss는 $\gamma \in [0,5]$의 값에 대해 시각화가 이루어짐
 - Focal Loss의 두가지 속성
@@ -122,7 +122,7 @@ Anchor box
     - $\gamma = 0$일 때 FL는 CE와 동일하고 $\gamma$가 증가하면 modulating factor의 효과도 마찬가지로 증가했다
     - 즉, modulating factor는 easy examples에서 loss의 기여도를 줄이고, 낮은 Loss를 받는 범위를 확장시킨다.
 
-    ![image7](RetinaNet%20-%20Focal%20Loss%20for%20Dense%20Object%20Detection%205027990907ea40ec849d30f96ab0eab0/Untitled 7.png)
+    ![image7]({{leonilpark.github.io}}/assets/images/RetinaNet/Untitled 7.png)
 
     - $\alpha$-balanced가 없는 것에 비해 정확도가 개선이 되었기에 이 형태를 채택
     - 마지막으로, Loss layer의 구현은 $p$ 계산을 위한 sigmoid operation과 Loss computation을 결합해 안정성을 제공한다
@@ -157,7 +157,7 @@ Anchor box
         - 두개의 하위 네트워크는 dense detection과 figure을 탐지할 수 있는 단순한 one-stage로 구성되어 있다.
         - 이때 Parameters는 sensitive하게 반응하지 않는다.
 
-            ![image8](RetinaNet%20-%20Focal%20Loss%20for%20Dense%20Object%20Detection%205027990907ea40ec849d30f96ab0eab0/Untitled 8.png)
+            ![image8]({{leonilpark.github.io}}/assets/images/RetinaNet/Untitled 8.png)
 
         ### Feature Pyramid Network Backbone
 
