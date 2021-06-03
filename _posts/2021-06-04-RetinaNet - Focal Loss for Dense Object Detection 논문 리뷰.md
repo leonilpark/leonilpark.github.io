@@ -1,9 +1,10 @@
 ---
 title : RetinaNet - Focal Loss for Dense Object Detection 논문 리뷰
 date : 2021-06-04 02:32:03 +0000
-last_modified_at : date : 2021-06-04 02:32:03 +0000
+last_modified_at : 2021-06-04 02:32:03 +0000
 ---
-링크 : [https://paperswithcode.com/method/retinanet](https://paperswithcode.com/method/retinanet)
+
+[논문 링크](https://paperswithcode.com/method/retinanet)
 
 ### Figure 1.
 
