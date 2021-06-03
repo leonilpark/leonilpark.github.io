@@ -1,5 +1,5 @@
 ---
-RetinaNet - Focal Loss for Dense Object Detection 논문 리뷰
+title : RetinaNet - Focal Loss for Dense Object Detection 논문 리뷰
 date : 2021-06-04 02:32:03 +0000
 last_modified_at : date : 2021-06-04 02:32:03 +0000
 ---
